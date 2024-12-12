@@ -1,77 +1,77 @@
 use crate::model::Product;
 use crate::configuration::Settings;
-
+ 
 pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Dell XPS 13 Laptop".to_string(),
+            price: 1299.99,
+            description: "Experience exceptional performance with the Dell XPS 13. Powered by Intel Core processors and boasting an InfinityEdge display.".to_string(),
+            image: "/dell_xps13.png".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Samsung Galaxy S23 Ultra Smartphone".to_string(),
+            price: 1199.99,
+            description: "Stay connected with the Samsung Galaxy S23 Ultra. Featuring a powerful processor, a stunning AMOLED display, and advanced camera features.".to_string(),
+            image: "/galaxy_s23_ultra.png".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Roku Ultra 4K Streaming Device".to_string(),
+            price: 99.99,
+            description: "Stream your favorite shows with the Roku Ultra. Enjoy 4K HDR streaming, Dolby Vision, and voice search capabilities.".to_string(),
+            image: "/roku_ultra.png".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Canon EOS R50 Mirrorless Camera".to_string(),
+            price: 999.99,
+            description: "Capture high-quality photos and videos with the Canon EOS R50. Lightweight and versatile, perfect for creators on the go.".to_string(),
+            image: "/canon_eos_r50.png".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Breville Barista Express Espresso Machine".to_string(),
+            price: 699.99,
+            description: "Make café-quality coffee at home with the Breville Barista Express. Features a built-in grinder and precise espresso extraction.".to_string(),
+            image: "/breville_espresso.png".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "iRobot Roomba j7+ Robot Vacuum".to_string(),
+            price: 799.99,
+            description: "Keep your floors clean effortlessly with the iRobot Roomba j7+. Smart navigation and a self-emptying bin for ultimate convenience.".to_string(),
+            image: "/roomba_j7.png".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Microsoft Xbox Series X Console".to_string(),
+            price: 499.99,
+            description: "Dive into immersive gaming with the Xbox Series X. Features 4K resolution, high frame rates, and a vast library of games.".to_string(),
+            image: "/xbox_series_x.png".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "JBL Flip 6 Portable Bluetooth Speaker".to_string(),
+            price: 129.99,
+            description: "Take your music anywhere with the JBL Flip 6. Offers powerful sound, water resistance, and up to 12 hours of playtime.".to_string(),
+            image: "/jbl_flip6.png".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Nest Learning Thermostat (3rd Gen)".to_string(),
+            price: 249.99,
+            description: "Save energy and stay comfortable with the Nest Learning Thermostat. Adapts to your schedule and can be controlled remotely.".to_string(),
+            image: "/nest_thermostat.png".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Anker PowerCore 26800 Portable Charger".to_string(),
+            price: 59.99,
+            description: "Keep your devices charged on the go with the Anker PowerCore 26800. High capacity and fast charging for all your gadgets.".to_string(),
+            image: "/anker_powercore.png".to_string()
         }
     ]
 }
